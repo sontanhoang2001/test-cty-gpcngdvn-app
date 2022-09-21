@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Popup from "reactjs-popup";
 
-function AddEmployee() {
+function Employee() {
   const [isSubmit, setIsSubmit] = useState(false);
   const [values, setValues] = useState({
     fullName: "",
@@ -379,4 +379,4 @@ function AddEmployee() {
   );
 }
 
-export default AddEmployee;
+export default Employee;
